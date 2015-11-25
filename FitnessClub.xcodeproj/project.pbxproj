@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		08DC0DC90B9B6CBD5D740ACA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F39564F36FD22154023AF932 /* libPods.a */; };
+		C48330FA1C05504700EF0513 /* homeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C48330F91C05504700EF0513 /* homeObject.m */; };
+		C48330FD1C05512900EF0513 /* homeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C48330FC1C05512900EF0513 /* homeTableViewCell.m */; };
 		C4EB9D8B1C043BF100A1F600 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EB9D8A1C043BF100A1F600 /* main.m */; };
 		C4EB9D8E1C043BF100A1F600 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EB9D8D1C043BF100A1F600 /* AppDelegate.m */; };
 		C4EB9D941C043BF100A1F600 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4EB9D921C043BF100A1F600 /* Main.storyboard */; };
@@ -49,6 +51,10 @@
 
 /* Begin PBXFileReference section */
 		6CD53555DD79B5F9CCE380ED /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		C48330F81C05504700EF0513 /* homeObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = homeObject.h; sourceTree = "<group>"; };
+		C48330F91C05504700EF0513 /* homeObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = homeObject.m; sourceTree = "<group>"; };
+		C48330FB1C05512900EF0513 /* homeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = homeTableViewCell.h; sourceTree = "<group>"; };
+		C48330FC1C05512900EF0513 /* homeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = homeTableViewCell.m; sourceTree = "<group>"; };
 		C4EB9D861C043BF100A1F600 /* FitnessClub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitnessClub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4EB9D8A1C043BF100A1F600 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C4EB9D8C1C043BF100A1F600 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -153,6 +159,17 @@
 				F39564F36FD22154023AF932 /* libPods.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C48330F61C054FFE00EF0513 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				C48330F81C05504700EF0513 /* homeObject.h */,
+				C48330F91C05504700EF0513 /* homeObject.m */,
+				C48330FB1C05512900EF0513 /* homeTableViewCell.h */,
+				C48330FC1C05512900EF0513 /* homeTableViewCell.m */,
+			);
+			name = model;
 			sourceTree = "<group>";
 		};
 		C4EB9D7D1C043BF000A1F600 = {
@@ -297,6 +314,7 @@
 		C4EB9E141C044EC500A1F600 /* 首页 */ = {
 			isa = PBXGroup;
 			children = (
+				C48330F61C054FFE00EF0513 /* model */,
 				C4EB9E101C044EAB00A1F600 /* homeViewController.h */,
 				C4EB9E111C044EAB00A1F600 /* homeViewController.m */,
 			);
@@ -487,12 +505,14 @@
 				C4EB9DFD1C044B8C00A1F600 /* StorageMgr.m in Sources */,
 				C4EB9DFC1C044B8C00A1F600 /* RequestAPI.m in Sources */,
 				C4EB9DEB1C04489900A1F600 /* logInViewController.m in Sources */,
+				C48330FA1C05504700EF0513 /* homeObject.m in Sources */,
 				C4EB9DFB1C044B8C00A1F600 /* NSString+Crypt.m in Sources */,
 				C4EB9DEE1C044AF100A1F600 /* Utilities.m in Sources */,
 				C4EB9DF91C044B8C00A1F600 /* AppAPIClient.m in Sources */,
 				C4EB9E171C044EEE00A1F600 /* clubViewController.m in Sources */,
 				C4EB9DCA1C0445D900A1F600 /* BasicEncodingRules.m in Sources */,
 				C4EB9D8E1C043BF100A1F600 /* AppDelegate.m in Sources */,
+				C48330FD1C05512900EF0513 /* homeTableViewCell.m in Sources */,
 				C4EB9E1A1C044F0200A1F600 /* personViewController.m in Sources */,
 				C4EB9DFA1C044B8C00A1F600 /* NSData+Base64.m in Sources */,
 				C4EB9D971C043BF100A1F600 /* FitnessClub.xcdatamodeld in Sources */,
@@ -639,6 +659,7 @@
 			baseConfigurationReference = 6CD53555DD79B5F9CCE380ED /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/FitnessClub",
@@ -649,6 +670,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = milaotou.FitnessClub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -657,6 +679,7 @@
 			baseConfigurationReference = E40E7B5840EBCD85497A96BA /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/FitnessClub",
@@ -667,6 +690,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = milaotou.FitnessClub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -16,7 +16,7 @@
 #import "RequestAPI.h"
 #import "NSString+Crypt.h"
 #import "StorageMgr.h"
-
+#import "UIImageView+WebCache.h"
 #ifdef __OBJC__
 
 #import "Utilities.h"
