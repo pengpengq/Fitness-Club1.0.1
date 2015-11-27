@@ -215,7 +215,7 @@
 - (void)introDidFinish {
     NSLog(@"Intro callback");
     
-    UITabBarController *view =[Utilities getStoryboardInstanceByIdentity:@"home"];
+    UITabBarController *view =[Utilities getStoryboardInstance:@"Main" byIdentity:@"home"];
    
     UINavigationController* navigation = [[UINavigationController alloc] initWithRootViewController:view];
     

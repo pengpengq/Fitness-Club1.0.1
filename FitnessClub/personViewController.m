@@ -35,32 +35,32 @@
 */
 
 - (IBAction)collectAction:(UIButton *)sender {
-    UIViewController *view= [Utilities getStoryboardInstanceByIdentity:@"myCollection"];
+    UIViewController *view = [Utilities getStoryboardInstance:@"Person" byIdentity:@"myCollection"];
     [self.navigationController pushViewController:view  animated:YES];
 }
 
 - (IBAction)coupon:(UIButton *)sender {
-    UIViewController *view= [Utilities getStoryboardInstanceByIdentity:@"coupon"];
+    UIViewController *view = [Utilities getStoryboardInstance:@"Person" byIdentity:@"coupon"];
     [self.navigationController pushViewController:view  animated:YES];
 }
 
 - (IBAction)mydetailAction:(UIButton *)sender {
-    UIViewController *view= [Utilities getStoryboardInstanceByIdentity:@"mydetail"];
+    UIViewController *view = [Utilities getStoryboardInstance:@"Person" byIdentity:@"mydetail"];
     [self.navigationController pushViewController:view  animated:YES];
 }
 
 - (IBAction)reservation:(UIButton *)sender {
-    UIViewController *view= [Utilities getStoryboardInstanceByIdentity:@"reservation"];
+    UIViewController *view = [Utilities getStoryboardInstance:@"Person" byIdentity:@"reservation"];
     [self.navigationController pushViewController:view  animated:YES];
 }
 
 - (IBAction)service:(UIButton *)sender {
-    UIViewController *view= [Utilities getStoryboardInstanceByIdentity:@"service"];
+    UIViewController *view = [Utilities getStoryboardInstance:@"Person" byIdentity:@"service"];
     [self.navigationController pushViewController:view  animated:YES];
 }
 
 - (IBAction)feedbackAction:(UIButton *)sender {
-    UIViewController *view= [Utilities getStoryboardInstanceByIdentity:@"feedBack"];
+    UIViewController *view = [Utilities getStoryboardInstance:@"Person" byIdentity:@"feedBack"];
     [self.navigationController pushViewController:view  animated:YES];
 }
 @end

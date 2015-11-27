@@ -37,7 +37,7 @@
 */
 - (IBAction)dinwei:(UIBarButtonItem *)sender {
     
-    UIViewController *view= [Utilities getStoryboardInstanceByIdentity:@"cities"];
+    UIViewController *view = [Utilities getStoryboardInstance:@"Main" byIdentity:@"cities"];
     
     
     [self.navigationController pushViewController:view  animated:YES];

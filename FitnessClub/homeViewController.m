@@ -7,6 +7,7 @@
 //
 
 #import "homeViewController.h"
+#import <SDWebImage/UIButton+WebCache.h>
 
 @interface homeViewController ()
 {
@@ -14,6 +15,7 @@
 
 }
 @property (weak, nonatomic) IBOutlet UIView *headerView;
+@property (strong, nonatomic) NSArray *btnArr;
 
 @end
 
@@ -23,6 +25,7 @@
     [super viewDidLoad];
     self.navigationController.navigationBarHidden=NO;
     
+    _btnArr = @[_headerBtnF, _headerBtnT, _headerBtnS, _headerBtnFo, _headerBtnFi, _headerBtnSi, _headerBtnSe, _headerBtnNi];
     _tableView.delegate=self;
     _tableView.dataSource=self;
     //[self request];
@@ -36,10 +39,22 @@
         // Do any additional setup after loading the view.
 }
 -(void)viewWillAppear:(BOOL)animated{
-    
+    [super viewWillAppear:animated];
     //[self.navigationController setNavigationBarHidden:YES animated:YES];
    
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
     
+    _headerBtnF.layer.cornerRadius=_headerBtnF.frame.size.width/2;
+    _headerBtnT.layer.cornerRadius=_headerBtnF.frame.size.width/2;
+    _headerBtnS.layer.cornerRadius=_headerBtnF.frame.size.width/2;
+    _headerBtnFo.layer.cornerRadius=_headerBtnF.frame.size.width/2;
+    _headerBtnFi.layer.cornerRadius=_headerBtnF.frame.size.width/2;
+    _headerBtnSi.layer.cornerRadius=_headerBtnF.frame.size.width/2;
+    _headerBtnSe.layer.cornerRadius=_headerBtnF.frame.size.width/2;
+    _headerBtnNi.layer.cornerRadius=_headerBtnF.frame.size.width/2;
 }
 -(void)request{
     NSString *request = @"/homepage/category";
@@ -54,24 +69,15 @@
             //NSLog(@"dic= %@",dataArr);
             NSDictionary *pageDict=[rootDictory objectForKey:@"pagingInfo"];
             //_headerBtnF.backgroundColor=[UIColor colorWithPatternImage:[UIImage imageWithData:data]];
-            for (NSDictionary *dic in dataArr) {
+            for (int i = 0; i < dataArr.count; i ++) {
+                NSDictionary *dic = [dataArr objectAtIndex:i];
                 homeObject *model=[[homeObject alloc] initWithDictionary:dic];
                 [_objectForShow addObject:model];
+                UIButton *btn = [_btnArr objectAtIndex:i];
+                 [btn sd_setBackgroundImageWithURL:[NSURL URLWithString:model.backimgurl ] forState:UIControlStateNormal placeholderImage:[UIImage imageNamed:@"default"]];
             }
             
-           
-            
-            _headerBtnF.layer.cornerRadius=_headerBtnF.frame.size.width/2;
-            _headerBtnT.layer.cornerRadius=_headerBtnF.frame.size.width/2;
-            _headerBtnS.layer.cornerRadius=_headerBtnF.frame.size.width/2;
-            _headerBtnFo.layer.cornerRadius=_headerBtnF.frame.size.width/2;
-            _headerBtnFi.layer.cornerRadius=_headerBtnF.frame.size.width/2;
-            _headerBtnSi.layer.cornerRadius=_headerBtnF.frame.size.width/2;
-            _headerBtnSe.layer.cornerRadius=_headerBtnF.frame.size.width/2;
-             _headerBtnNi.layer.cornerRadius=_headerBtnF.frame.size.width/2;
-            
-            
-            [_headerBtnF setImage:_objectForShow[0] forState:UIControlStateHighlighted];
+            //[_headerBtnF setBackgroundImage:_objectForShow[0] forState:UIControlStateNormal];
             NSInteger totalPage=[[pageDict objectForKey:@"totalPage"] integerValue];
             NSLog(@"%ld", (long)totalPage);
             
@@ -168,11 +174,11 @@
 - (IBAction)dinwei:(UIBarButtonItem *)sender {
     
     
-   UIViewController *view= [Utilities getStoryboardInstanceByIdentity:@"cities"];
-  [self.navigationController pushViewController:view  animated:YES];
+    UIViewController *view = [Utilities getStoryboardInstance:@"Main" byIdentity:@"cities"];
+    [self.navigationController pushViewController:view  animated:YES];
     
     
     
-    }
+}
 
 @end
