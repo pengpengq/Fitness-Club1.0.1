@@ -51,14 +51,16 @@
             //根据接口返回的数据结构拆解数据，用适当的容器（数据类型）盛放底层数据
             NSDictionary *rootDictory=[responseObject objectForKey:@"result"];
             NSArray *dataArr=[rootDictory objectForKey:@"models"];
-            NSLog(@"dic= %@",dataArr);
+            //NSLog(@"dic= %@",dataArr);
             NSDictionary *pageDict=[rootDictory objectForKey:@"pagingInfo"];
-            NSArray *array=[pageDict objectForKey:@"backImgUrl"];
-            
+            //_headerBtnF.backgroundColor=[UIColor colorWithPatternImage:[UIImage imageWithData:data]];
             for (NSDictionary *dic in dataArr) {
                 homeObject *model=[[homeObject alloc] initWithDictionary:dic];
                 [_objectForShow addObject:model];
             }
+            
+           
+            
             _headerBtnF.layer.cornerRadius=_headerBtnF.frame.size.width/2;
             _headerBtnT.layer.cornerRadius=_headerBtnF.frame.size.width/2;
             _headerBtnS.layer.cornerRadius=_headerBtnF.frame.size.width/2;
@@ -68,6 +70,8 @@
             _headerBtnSe.layer.cornerRadius=_headerBtnF.frame.size.width/2;
              _headerBtnNi.layer.cornerRadius=_headerBtnF.frame.size.width/2;
             
+            
+            [_headerBtnF setImage:_objectForShow[0] forState:UIControlStateHighlighted];
             NSInteger totalPage=[[pageDict objectForKey:@"totalPage"] integerValue];
             NSLog(@"%ld", (long)totalPage);
             

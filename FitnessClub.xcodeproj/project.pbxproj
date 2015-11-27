@@ -56,6 +56,7 @@
 		C4ED21B51C06D749009818A7 /* clubTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ED21B41C06D749009818A7 /* clubTableViewCell.m */; };
 		C4ED21B81C06D770009818A7 /* clubObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ED21B71C06D770009818A7 /* clubObject.m */; };
 		C4ED21BC1C06D7B0009818A7 /* courseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ED21BB1C06D7B0009818A7 /* courseObject.m */; };
+		C4F80E131C0827DB00AD4F6C /* Person.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4F80E121C0827DB00AD4F6C /* Person.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -166,6 +167,7 @@
 		C4ED21BA1C06D7B0009818A7 /* courseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = courseObject.h; sourceTree = "<group>"; };
 		C4ED21BB1C06D7B0009818A7 /* courseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = courseObject.m; sourceTree = "<group>"; };
 		C4F80E0B1C07E75300AD4F6C /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		C4F80E121C0827DB00AD4F6C /* Person.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Person.storyboard; sourceTree = "<group>"; };
 		E40E7B5840EBCD85497A96BA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		F39564F36FD22154023AF932 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -379,6 +381,7 @@
 			isa = PBXGroup;
 			children = (
 				C4EB9D921C043BF100A1F600 /* Main.storyboard */,
+				C4F80E121C0827DB00AD4F6C /* Person.storyboard */,
 				C4EB9D9A1C043BF100A1F600 /* LaunchScreen.storyboard */,
 				C4EB9D981C043BF100A1F600 /* Assets.xcassets */,
 				C48330FB1C05512900EF0513 /* homeTableViewCell.h */,
@@ -641,6 +644,7 @@
 				C48331151C059A4800EF0513 /* introBg@2x.png in Resources */,
 				C483311A1C059A8600EF0513 /* femalecodertocat@2x.png in Resources */,
 				C483311B1C059A8600EF0513 /* original@2x.png in Resources */,
+				C4F80E131C0827DB00AD4F6C /* Person.storyboard in Resources */,
 				C4EB9D991C043BF100A1F600 /* Assets.xcassets in Resources */,
 				C4EB9D941C043BF100A1F600 /* Main.storyboard in Resources */,
 			);

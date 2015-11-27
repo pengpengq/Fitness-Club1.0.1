@@ -34,4 +34,33 @@
 }
 */
 
+- (IBAction)collectAction:(UIButton *)sender {
+    UIViewController *view= [Utilities getStoryboardInstanceByIdentity:@"myCollection"];
+    [self.navigationController pushViewController:view  animated:YES];
+}
+
+- (IBAction)coupon:(UIButton *)sender {
+    UIViewController *view= [Utilities getStoryboardInstanceByIdentity:@"coupon"];
+    [self.navigationController pushViewController:view  animated:YES];
+}
+
+- (IBAction)mydetailAction:(UIButton *)sender {
+    UIViewController *view= [Utilities getStoryboardInstanceByIdentity:@"mydetail"];
+    [self.navigationController pushViewController:view  animated:YES];
+}
+
+- (IBAction)reservation:(UIButton *)sender {
+    UIViewController *view= [Utilities getStoryboardInstanceByIdentity:@"reservation"];
+    [self.navigationController pushViewController:view  animated:YES];
+}
+
+- (IBAction)service:(UIButton *)sender {
+    UIViewController *view= [Utilities getStoryboardInstanceByIdentity:@"service"];
+    [self.navigationController pushViewController:view  animated:YES];
+}
+
+- (IBAction)feedbackAction:(UIButton *)sender {
+    UIViewController *view= [Utilities getStoryboardInstanceByIdentity:@"feedBack"];
+    [self.navigationController pushViewController:view  animated:YES];
+}
 @end
