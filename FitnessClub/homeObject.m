@@ -11,7 +11,10 @@
 @implementation homeObject
 - (id)initWithDictionary:(NSDictionary *)dic {
     
-   _backImgUrl = [[dic objectForKey:@"backImgUrl"] isKindOfClass:[NSNull class]] ? @"":[dic objectForKey:@"backImgUrl"];
+   _ImgUrl = [[dic objectForKey:@"image"] isKindOfClass:[NSNull class]] ? @"":[dic objectForKey:@"image"];
+   _detail = [[dic objectForKey:@"address"] isKindOfClass:[NSNull class]] ? @"":[dic objectForKey:@"address"];
+     _name = [[dic objectForKey:@"name"] isKindOfClass:[NSNull class]] ? @"":[dic objectForKey:@"name"];
+    _backimgurl=[[dic objectForKey:@"backImgUrl"] isKindOfClass:[NSNull class]] ? @"":[dic objectForKey:@"backImgUrl"];
     return self;
 }
 @end

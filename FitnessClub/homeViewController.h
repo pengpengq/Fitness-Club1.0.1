@@ -13,6 +13,18 @@
 
 
 
+
 @property(strong,nonatomic) NSDictionary *parameters;
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
+- (IBAction)dinwei:(UIBarButtonItem *)sender;
+@property(strong,nonatomic) NSMutableArray *objectForShow;
+@property(strong,nonatomic) NSMutableArray *mutArray;
+@property (weak, nonatomic) IBOutlet UIButton *headerBtnF;
+@property (weak, nonatomic) IBOutlet UIButton *headerBtnS;
+@property (weak, nonatomic) IBOutlet UIButton *headerBtnT;
+@property (weak, nonatomic) IBOutlet UIButton *headerBtnFo;
+@property (weak, nonatomic) IBOutlet UIButton *headerBtnFi;
+@property (weak, nonatomic) IBOutlet UIButton *headerBtnSi;
+@property (weak, nonatomic) IBOutlet UIButton *headerBtnSe;
+@property (weak, nonatomic) IBOutlet UIButton *headerBtnNi;
 @end

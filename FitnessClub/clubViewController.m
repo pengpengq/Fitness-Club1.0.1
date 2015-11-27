@@ -9,7 +9,9 @@
 #import "clubViewController.h"
 
 @interface clubViewController ()
-
+- (IBAction)dinwei:(UIBarButtonItem *)sender;
+- (IBAction)nearby:(UIBarButtonItem *)sender;
+@property (weak, nonatomic) IBOutlet UISearchBar *search;
 @end
 
 @implementation clubViewController
@@ -33,5 +35,23 @@
     // Pass the selected object to the new view controller.
 }
 */
+- (IBAction)dinwei:(UIBarButtonItem *)sender {
+    
+    UIViewController *view= [Utilities getStoryboardInstanceByIdentity:@"cities"];
+    
+    
+    [self.navigationController pushViewController:view  animated:YES];
+    //描述：通过 NSNavigationBar 进行跳转
+    
+    //[self.navigationController popViewControllerAnimated:];
+}
 
+- (IBAction)nearby:(UIBarButtonItem *)sender {
+}
+
+- (IBAction)kindButton:(UIButton *)sender forEvent:(UIEvent *)event {
+}
+
+- (IBAction)shopButton:(UIButton *)sender forEvent:(UIEvent *)event {
+}
 @end

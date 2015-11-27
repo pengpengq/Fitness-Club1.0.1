@@ -9,9 +9,9 @@
 #import <Foundation/Foundation.h>
 
 @interface homeObject : NSObject
-@property (strong, nonatomic) NSString *backImgUrl;
-@property (strong, nonatomic) NSString *frontImgUrl;
+@property (strong, nonatomic) NSString *ImgUrl;
+@property (strong, nonatomic) NSString *detail;
 @property (strong, nonatomic) NSString *name;
-
+@property (strong, nonatomic) NSString *backimgurl;
 - (id)initWithDictionary:(NSDictionary *)dic;
 @end
