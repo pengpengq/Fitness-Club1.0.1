@@ -8,8 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		08DC0DC90B9B6CBD5D740ACA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F39564F36FD22154023AF932 /* libPods.a */; };
+		91E382CB1C05F9B800896049 /* citiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E382CA1C05F9B800896049 /* citiesViewController.m */; };
+		91E382CE1C0603B900896049 /* clubDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E382CD1C0603B900896049 /* clubDetailsViewController.m */; };
 		C48330FA1C05504700EF0513 /* homeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C48330F91C05504700EF0513 /* homeObject.m */; };
 		C48330FD1C05512900EF0513 /* homeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C48330FC1C05512900EF0513 /* homeTableViewCell.m */; };
+		C48331021C05982B00EF0513 /* registerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C48331011C05982B00EF0513 /* registerViewController.m */; };
+		C48331081C05999900EF0513 /* EAIntroPage.m in Sources */ = {isa = PBXBuildFile; fileRef = C48331051C05999900EF0513 /* EAIntroPage.m */; };
+		C48331091C05999900EF0513 /* EAIntroView.m in Sources */ = {isa = PBXBuildFile; fileRef = C48331071C05999900EF0513 /* EAIntroView.m */; };
+		C483310C1C0599B200EF0513 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C483310B1C0599B200EF0513 /* ViewController.m */; };
+		C48331111C059A3900EF0513 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = C483310E1C059A3900EF0513 /* 1.png */; };
+		C48331121C059A3900EF0513 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = C483310F1C059A3900EF0513 /* 3.png */; };
+		C48331131C059A3900EF0513 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = C48331101C059A3900EF0513 /* 2.png */; };
+		C48331151C059A4800EF0513 /* introBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C48331141C059A4800EF0513 /* introBg@2x.png */; };
+		C48331171C059A7800EF0513 /* supportcat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C48331161C059A7800EF0513 /* supportcat@2x.png */; };
+		C483311A1C059A8600EF0513 /* femalecodertocat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C48331181C059A8600EF0513 /* femalecodertocat@2x.png */; };
+		C483311B1C059A8600EF0513 /* original@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C48331191C059A8600EF0513 /* original@2x.png */; };
 		C4EB9D8B1C043BF100A1F600 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EB9D8A1C043BF100A1F600 /* main.m */; };
 		C4EB9D8E1C043BF100A1F600 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EB9D8D1C043BF100A1F600 /* AppDelegate.m */; };
 		C4EB9D941C043BF100A1F600 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4EB9D921C043BF100A1F600 /* Main.storyboard */; };
@@ -30,6 +43,19 @@
 		C4EB9E121C044EAB00A1F600 /* homeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EB9E111C044EAB00A1F600 /* homeViewController.m */; };
 		C4EB9E171C044EEE00A1F600 /* clubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EB9E161C044EEE00A1F600 /* clubViewController.m */; };
 		C4EB9E1A1C044F0200A1F600 /* personViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EB9E191C044F0200A1F600 /* personViewController.m */; };
+		C4ED218B1C06A0C6009818A7 /* personDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ED218A1C06A0C6009818A7 /* personDetailsViewController.m */; };
+		C4ED218E1C06A15E009818A7 /* modifyingDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ED218D1C06A15E009818A7 /* modifyingDataViewController.m */; };
+		C4ED21921C06A1C2009818A7 /* myCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ED21911C06A1C2009818A7 /* myCollectionViewController.m */; };
+		C4ED21961C06A20A009818A7 /* reservationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ED21951C06A20A009818A7 /* reservationViewController.m */; };
+		C4ED219A1C06A27F009818A7 /* feedBackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ED21991C06A27F009818A7 /* feedBackViewController.m */; };
+		C4ED219E1C06A3A5009818A7 /* serviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ED219D1C06A3A5009818A7 /* serviceViewController.m */; };
+		C4ED21A31C06A424009818A7 /* courseDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ED21A21C06A424009818A7 /* courseDetailViewController.m */; };
+		C4ED21A71C06A59C009818A7 /* nearbyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ED21A61C06A59C009818A7 /* nearbyViewController.m */; };
+		C4ED21AB1C06ACE4009818A7 /* couponViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ED21AA1C06ACE4009818A7 /* couponViewController.m */; };
+		C4ED21B11C06CFA0009818A7 /* modelpush.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ED21B01C06CFA0009818A7 /* modelpush.m */; };
+		C4ED21B51C06D749009818A7 /* clubTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ED21B41C06D749009818A7 /* clubTableViewCell.m */; };
+		C4ED21B81C06D770009818A7 /* clubObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ED21B71C06D770009818A7 /* clubObject.m */; };
+		C4ED21BC1C06D7B0009818A7 /* courseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ED21BB1C06D7B0009818A7 /* courseObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,10 +77,29 @@
 
 /* Begin PBXFileReference section */
 		6CD53555DD79B5F9CCE380ED /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		91E382C91C05F9B800896049 /* citiesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = citiesViewController.h; sourceTree = "<group>"; };
+		91E382CA1C05F9B800896049 /* citiesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = citiesViewController.m; sourceTree = "<group>"; };
+		91E382CC1C0603B900896049 /* clubDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = clubDetailsViewController.h; sourceTree = "<group>"; };
+		91E382CD1C0603B900896049 /* clubDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = clubDetailsViewController.m; sourceTree = "<group>"; };
 		C48330F81C05504700EF0513 /* homeObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = homeObject.h; sourceTree = "<group>"; };
 		C48330F91C05504700EF0513 /* homeObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = homeObject.m; sourceTree = "<group>"; };
 		C48330FB1C05512900EF0513 /* homeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = homeTableViewCell.h; sourceTree = "<group>"; };
 		C48330FC1C05512900EF0513 /* homeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = homeTableViewCell.m; sourceTree = "<group>"; };
+		C48331001C05982B00EF0513 /* registerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = registerViewController.h; sourceTree = "<group>"; };
+		C48331011C05982B00EF0513 /* registerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = registerViewController.m; sourceTree = "<group>"; };
+		C48331041C05999900EF0513 /* EAIntroPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAIntroPage.h; sourceTree = "<group>"; };
+		C48331051C05999900EF0513 /* EAIntroPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAIntroPage.m; sourceTree = "<group>"; };
+		C48331061C05999900EF0513 /* EAIntroView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAIntroView.h; sourceTree = "<group>"; };
+		C48331071C05999900EF0513 /* EAIntroView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAIntroView.m; sourceTree = "<group>"; };
+		C483310A1C0599B200EF0513 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C483310B1C0599B200EF0513 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C483310E1C059A3900EF0513 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		C483310F1C059A3900EF0513 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		C48331101C059A3900EF0513 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		C48331141C059A4800EF0513 /* introBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "introBg@2x.png"; sourceTree = "<group>"; };
+		C48331161C059A7800EF0513 /* supportcat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "supportcat@2x.png"; sourceTree = "<group>"; };
+		C48331181C059A8600EF0513 /* femalecodertocat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "femalecodertocat@2x.png"; sourceTree = "<group>"; };
+		C48331191C059A8600EF0513 /* original@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "original@2x.png"; sourceTree = "<group>"; };
 		C4EB9D861C043BF100A1F600 /* FitnessClub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitnessClub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4EB9D8A1C043BF100A1F600 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C4EB9D8C1C043BF100A1F600 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -94,6 +139,33 @@
 		C4EB9E161C044EEE00A1F600 /* clubViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = clubViewController.m; sourceTree = "<group>"; };
 		C4EB9E181C044F0200A1F600 /* personViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = personViewController.h; sourceTree = "<group>"; };
 		C4EB9E191C044F0200A1F600 /* personViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = personViewController.m; sourceTree = "<group>"; };
+		C4ED21891C06A0C6009818A7 /* personDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = personDetailsViewController.h; sourceTree = "<group>"; };
+		C4ED218A1C06A0C6009818A7 /* personDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = personDetailsViewController.m; sourceTree = "<group>"; };
+		C4ED218C1C06A15E009818A7 /* modifyingDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = modifyingDataViewController.h; sourceTree = "<group>"; };
+		C4ED218D1C06A15E009818A7 /* modifyingDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = modifyingDataViewController.m; sourceTree = "<group>"; };
+		C4ED21901C06A1C2009818A7 /* myCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myCollectionViewController.h; sourceTree = "<group>"; };
+		C4ED21911C06A1C2009818A7 /* myCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myCollectionViewController.m; sourceTree = "<group>"; };
+		C4ED21941C06A20A009818A7 /* reservationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reservationViewController.h; sourceTree = "<group>"; };
+		C4ED21951C06A20A009818A7 /* reservationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = reservationViewController.m; sourceTree = "<group>"; };
+		C4ED21981C06A27F009818A7 /* feedBackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = feedBackViewController.h; sourceTree = "<group>"; };
+		C4ED21991C06A27F009818A7 /* feedBackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = feedBackViewController.m; sourceTree = "<group>"; };
+		C4ED219C1C06A3A5009818A7 /* serviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = serviceViewController.h; sourceTree = "<group>"; };
+		C4ED219D1C06A3A5009818A7 /* serviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = serviceViewController.m; sourceTree = "<group>"; };
+		C4ED21A11C06A424009818A7 /* courseDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = courseDetailViewController.h; sourceTree = "<group>"; };
+		C4ED21A21C06A424009818A7 /* courseDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = courseDetailViewController.m; sourceTree = "<group>"; };
+		C4ED21A51C06A59C009818A7 /* nearbyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nearbyViewController.h; sourceTree = "<group>"; };
+		C4ED21A61C06A59C009818A7 /* nearbyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = nearbyViewController.m; sourceTree = "<group>"; };
+		C4ED21A91C06ACE4009818A7 /* couponViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = couponViewController.h; sourceTree = "<group>"; };
+		C4ED21AA1C06ACE4009818A7 /* couponViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = couponViewController.m; sourceTree = "<group>"; };
+		C4ED21AF1C06CFA0009818A7 /* modelpush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = modelpush.h; sourceTree = "<group>"; };
+		C4ED21B01C06CFA0009818A7 /* modelpush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = modelpush.m; sourceTree = "<group>"; };
+		C4ED21B31C06D749009818A7 /* clubTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = clubTableViewCell.h; sourceTree = "<group>"; };
+		C4ED21B41C06D749009818A7 /* clubTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = clubTableViewCell.m; sourceTree = "<group>"; };
+		C4ED21B61C06D770009818A7 /* clubObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = clubObject.h; sourceTree = "<group>"; };
+		C4ED21B71C06D770009818A7 /* clubObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = clubObject.m; sourceTree = "<group>"; };
+		C4ED21BA1C06D7B0009818A7 /* courseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = courseObject.h; sourceTree = "<group>"; };
+		C4ED21BB1C06D7B0009818A7 /* courseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = courseObject.m; sourceTree = "<group>"; };
+		C4F80E0B1C07E75300AD4F6C /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		E40E7B5840EBCD85497A96BA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		F39564F36FD22154023AF932 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -130,6 +202,8 @@
 			children = (
 				C4EB9E151C044EEE00A1F600 /* clubViewController.h */,
 				C4EB9E161C044EEE00A1F600 /* clubViewController.m */,
+				C4ED21A01C06A3FD009818A7 /* 课程详情 */,
+				C4ED219F1C06A3DE009818A7 /* 会所详情 */,
 			);
 			name = "会所";
 			sourceTree = "<group>";
@@ -137,10 +211,28 @@
 		9189AE3C1C04C36B0029D48A /* 个人中心 */ = {
 			isa = PBXGroup;
 			children = (
+				C4ED21A81C06ACC2009818A7 /* 优惠劵 */,
+				C4ED219B1C06A374009818A7 /* 服务条款 */,
+				C4ED21971C06A240009818A7 /* 意见反馈 */,
+				C4ED21931C06A1E6009818A7 /* 我的预约 */,
+				C4ED218F1C06A17C009818A7 /* 我的收藏 */,
 				C4EB9E181C044F0200A1F600 /* personViewController.h */,
 				C4EB9E191C044F0200A1F600 /* personViewController.m */,
+				C4ED21891C06A0C6009818A7 /* personDetailsViewController.h */,
+				C4ED218A1C06A0C6009818A7 /* personDetailsViewController.m */,
+				C4ED218C1C06A15E009818A7 /* modifyingDataViewController.h */,
+				C4ED218D1C06A15E009818A7 /* modifyingDataViewController.m */,
 			);
 			name = "个人中心";
+			sourceTree = "<group>";
+		};
+		91E382C81C05F97100896049 /* 城市列表 */ = {
+			isa = PBXGroup;
+			children = (
+				91E382C91C05F9B800896049 /* citiesViewController.h */,
+				91E382CA1C05F9B800896049 /* citiesViewController.m */,
+			);
+			name = "城市列表";
 			sourceTree = "<group>";
 		};
 		B8D149DCB44805F8108D11B6 /* Pods */ = {
@@ -161,15 +253,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C48330F61C054FFE00EF0513 /* model */ = {
+		C48331031C05998800EF0513 /* model */ = {
 			isa = PBXGroup;
 			children = (
-				C48330F81C05504700EF0513 /* homeObject.h */,
-				C48330F91C05504700EF0513 /* homeObject.m */,
-				C48330FB1C05512900EF0513 /* homeTableViewCell.h */,
-				C48330FC1C05512900EF0513 /* homeTableViewCell.m */,
 			);
 			name = model;
+			sourceTree = "<group>";
+		};
+		C483310D1C059A2300EF0513 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C48331161C059A7800EF0513 /* supportcat@2x.png */,
+				C48331141C059A4800EF0513 /* introBg@2x.png */,
+				C483310E1C059A3900EF0513 /* 1.png */,
+				C483310F1C059A3900EF0513 /* 3.png */,
+				C48331101C059A3900EF0513 /* 2.png */,
+				C48331181C059A8600EF0513 /* femalecodertocat@2x.png */,
+				C48331191C059A8600EF0513 /* original@2x.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		C4EB9D7D1C043BF000A1F600 = {
@@ -197,11 +299,13 @@
 		C4EB9D881C043BF100A1F600 /* FitnessClub */ = {
 			isa = PBXGroup;
 			children = (
+				C4EB9DC01C043D6600A1F600 /* 3rd */,
+				C4F80E0A1C07E6B400AD4F6C /* Constant */,
+				C4EB9DBF1C043D5000A1F600 /* Utility */,
+				C483310D1C059A2300EF0513 /* Resources */,
+				C4EB9DC11C043D6F00A1F600 /* View */,
 				C4EB9DC31C043D8500A1F600 /* Model */,
 				C4EB9DC21C043D7600A1F600 /* Controller */,
-				C4EB9DC11C043D6F00A1F600 /* View */,
-				C4EB9DC01C043D6600A1F600 /* 3rd */,
-				C4EB9DBF1C043D5000A1F600 /* Utility */,
 				C4EB9D891C043BF100A1F600 /* Supporting Files */,
 			);
 			path = FitnessClub;
@@ -210,6 +314,8 @@
 		C4EB9D891C043BF100A1F600 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C4EB9D8C1C043BF100A1F600 /* AppDelegate.h */,
+				C4EB9D8D1C043BF100A1F600 /* AppDelegate.m */,
 				C4EB9D9D1C043BF100A1F600 /* Info.plist */,
 				C4EB9D951C043BF100A1F600 /* FitnessClub.xcdatamodeld */,
 				C4EB9D8A1C043BF100A1F600 /* main.m */,
@@ -258,7 +364,13 @@
 		C4EB9DC01C043D6600A1F600 /* 3rd */ = {
 			isa = PBXGroup;
 			children = (
+				C48331041C05999900EF0513 /* EAIntroPage.h */,
+				C48331051C05999900EF0513 /* EAIntroPage.m */,
+				C48331061C05999900EF0513 /* EAIntroView.h */,
+				C48331071C05999900EF0513 /* EAIntroView.m */,
 				C4EB9DC71C0445C700A1F600 /* SCZ-BasicEncodingRules */,
+				C4ED21AF1C06CFA0009818A7 /* modelpush.h */,
+				C4ED21B01C06CFA0009818A7 /* modelpush.m */,
 			);
 			name = 3rd;
 			sourceTree = "<group>";
@@ -266,8 +378,13 @@
 		C4EB9DC11C043D6F00A1F600 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				C4EB9D8C1C043BF100A1F600 /* AppDelegate.h */,
-				C4EB9D8D1C043BF100A1F600 /* AppDelegate.m */,
+				C4EB9D921C043BF100A1F600 /* Main.storyboard */,
+				C4EB9D9A1C043BF100A1F600 /* LaunchScreen.storyboard */,
+				C4EB9D981C043BF100A1F600 /* Assets.xcassets */,
+				C48330FB1C05512900EF0513 /* homeTableViewCell.h */,
+				C48330FC1C05512900EF0513 /* homeTableViewCell.m */,
+				C4ED21B31C06D749009818A7 /* clubTableViewCell.h */,
+				C4ED21B41C06D749009818A7 /* clubTableViewCell.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -275,6 +392,8 @@
 		C4EB9DC21C043D7600A1F600 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				C483310A1C0599B200EF0513 /* ViewController.h */,
+				C483310B1C0599B200EF0513 /* ViewController.m */,
 				C4EB9E131C044EB400A1F600 /* 登陆注册 */,
 				C4EB9E141C044EC500A1F600 /* 首页 */,
 				9189AE3B1C04C32B0029D48A /* 会所 */,
@@ -286,9 +405,12 @@
 		C4EB9DC31C043D8500A1F600 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				C4EB9D921C043BF100A1F600 /* Main.storyboard */,
-				C4EB9D981C043BF100A1F600 /* Assets.xcassets */,
-				C4EB9D9A1C043BF100A1F600 /* LaunchScreen.storyboard */,
+				C48330F81C05504700EF0513 /* homeObject.h */,
+				C48330F91C05504700EF0513 /* homeObject.m */,
+				C4ED21B61C06D770009818A7 /* clubObject.h */,
+				C4ED21B71C06D770009818A7 /* clubObject.m */,
+				C4ED21BA1C06D7B0009818A7 /* courseObject.h */,
+				C4ED21BB1C06D7B0009818A7 /* courseObject.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -305,8 +427,11 @@
 		C4EB9E131C044EB400A1F600 /* 登陆注册 */ = {
 			isa = PBXGroup;
 			children = (
+				C48331031C05998800EF0513 /* model */,
 				C4EB9DE91C04489900A1F600 /* logInViewController.h */,
 				C4EB9DEA1C04489900A1F600 /* logInViewController.m */,
+				C48331001C05982B00EF0513 /* registerViewController.h */,
+				C48331011C05982B00EF0513 /* registerViewController.m */,
 			);
 			name = "登陆注册";
 			sourceTree = "<group>";
@@ -314,11 +439,92 @@
 		C4EB9E141C044EC500A1F600 /* 首页 */ = {
 			isa = PBXGroup;
 			children = (
-				C48330F61C054FFE00EF0513 /* model */,
 				C4EB9E101C044EAB00A1F600 /* homeViewController.h */,
 				C4EB9E111C044EAB00A1F600 /* homeViewController.m */,
+				C4ED21A41C06A573009818A7 /* 附近 */,
+				91E382C81C05F97100896049 /* 城市列表 */,
 			);
 			name = "首页";
+			sourceTree = "<group>";
+		};
+		C4ED218F1C06A17C009818A7 /* 我的收藏 */ = {
+			isa = PBXGroup;
+			children = (
+				C4ED21901C06A1C2009818A7 /* myCollectionViewController.h */,
+				C4ED21911C06A1C2009818A7 /* myCollectionViewController.m */,
+			);
+			name = "我的收藏";
+			sourceTree = "<group>";
+		};
+		C4ED21931C06A1E6009818A7 /* 我的预约 */ = {
+			isa = PBXGroup;
+			children = (
+				C4ED21941C06A20A009818A7 /* reservationViewController.h */,
+				C4ED21951C06A20A009818A7 /* reservationViewController.m */,
+			);
+			name = "我的预约";
+			sourceTree = "<group>";
+		};
+		C4ED21971C06A240009818A7 /* 意见反馈 */ = {
+			isa = PBXGroup;
+			children = (
+				C4ED21981C06A27F009818A7 /* feedBackViewController.h */,
+				C4ED21991C06A27F009818A7 /* feedBackViewController.m */,
+			);
+			name = "意见反馈";
+			sourceTree = "<group>";
+		};
+		C4ED219B1C06A374009818A7 /* 服务条款 */ = {
+			isa = PBXGroup;
+			children = (
+				C4ED219C1C06A3A5009818A7 /* serviceViewController.h */,
+				C4ED219D1C06A3A5009818A7 /* serviceViewController.m */,
+			);
+			name = "服务条款";
+			sourceTree = "<group>";
+		};
+		C4ED219F1C06A3DE009818A7 /* 会所详情 */ = {
+			isa = PBXGroup;
+			children = (
+				91E382CC1C0603B900896049 /* clubDetailsViewController.h */,
+				91E382CD1C0603B900896049 /* clubDetailsViewController.m */,
+			);
+			name = "会所详情";
+			sourceTree = "<group>";
+		};
+		C4ED21A01C06A3FD009818A7 /* 课程详情 */ = {
+			isa = PBXGroup;
+			children = (
+				C4ED21A11C06A424009818A7 /* courseDetailViewController.h */,
+				C4ED21A21C06A424009818A7 /* courseDetailViewController.m */,
+			);
+			name = "课程详情";
+			sourceTree = "<group>";
+		};
+		C4ED21A41C06A573009818A7 /* 附近 */ = {
+			isa = PBXGroup;
+			children = (
+				C4ED21A51C06A59C009818A7 /* nearbyViewController.h */,
+				C4ED21A61C06A59C009818A7 /* nearbyViewController.m */,
+			);
+			name = "附近";
+			sourceTree = "<group>";
+		};
+		C4ED21A81C06ACC2009818A7 /* 优惠劵 */ = {
+			isa = PBXGroup;
+			children = (
+				C4ED21A91C06ACE4009818A7 /* couponViewController.h */,
+				C4ED21AA1C06ACE4009818A7 /* couponViewController.m */,
+			);
+			name = "优惠劵";
+			sourceTree = "<group>";
+		};
+		C4F80E0A1C07E6B400AD4F6C /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				C4F80E0B1C07E75300AD4F6C /* Constants.h */,
+			);
+			name = Constant;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -427,7 +633,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C48331131C059A3900EF0513 /* 2.png in Resources */,
+				C48331121C059A3900EF0513 /* 3.png in Resources */,
 				C4EB9D9C1C043BF100A1F600 /* LaunchScreen.storyboard in Resources */,
+				C48331171C059A7800EF0513 /* supportcat@2x.png in Resources */,
+				C48331111C059A3900EF0513 /* 1.png in Resources */,
+				C48331151C059A4800EF0513 /* introBg@2x.png in Resources */,
+				C483311A1C059A8600EF0513 /* femalecodertocat@2x.png in Resources */,
+				C483311B1C059A8600EF0513 /* original@2x.png in Resources */,
 				C4EB9D991C043BF100A1F600 /* Assets.xcassets in Resources */,
 				C4EB9D941C043BF100A1F600 /* Main.storyboard in Resources */,
 			);
@@ -504,20 +717,39 @@
 			files = (
 				C4EB9DFD1C044B8C00A1F600 /* StorageMgr.m in Sources */,
 				C4EB9DFC1C044B8C00A1F600 /* RequestAPI.m in Sources */,
+				C4ED219A1C06A27F009818A7 /* feedBackViewController.m in Sources */,
+				C4ED21B51C06D749009818A7 /* clubTableViewCell.m in Sources */,
 				C4EB9DEB1C04489900A1F600 /* logInViewController.m in Sources */,
+				C4ED21BC1C06D7B0009818A7 /* courseObject.m in Sources */,
 				C48330FA1C05504700EF0513 /* homeObject.m in Sources */,
 				C4EB9DFB1C044B8C00A1F600 /* NSString+Crypt.m in Sources */,
 				C4EB9DEE1C044AF100A1F600 /* Utilities.m in Sources */,
+				C4ED21AB1C06ACE4009818A7 /* couponViewController.m in Sources */,
 				C4EB9DF91C044B8C00A1F600 /* AppAPIClient.m in Sources */,
+				C4ED21B81C06D770009818A7 /* clubObject.m in Sources */,
 				C4EB9E171C044EEE00A1F600 /* clubViewController.m in Sources */,
 				C4EB9DCA1C0445D900A1F600 /* BasicEncodingRules.m in Sources */,
 				C4EB9D8E1C043BF100A1F600 /* AppDelegate.m in Sources */,
 				C48330FD1C05512900EF0513 /* homeTableViewCell.m in Sources */,
 				C4EB9E1A1C044F0200A1F600 /* personViewController.m in Sources */,
 				C4EB9DFA1C044B8C00A1F600 /* NSData+Base64.m in Sources */,
+				C4ED21A31C06A424009818A7 /* courseDetailViewController.m in Sources */,
+				C48331021C05982B00EF0513 /* registerViewController.m in Sources */,
+				C483310C1C0599B200EF0513 /* ViewController.m in Sources */,
+				C48331091C05999900EF0513 /* EAIntroView.m in Sources */,
 				C4EB9D971C043BF100A1F600 /* FitnessClub.xcdatamodeld in Sources */,
+				C4ED21961C06A20A009818A7 /* reservationViewController.m in Sources */,
 				C4EB9D8B1C043BF100A1F600 /* main.m in Sources */,
+				C4ED21921C06A1C2009818A7 /* myCollectionViewController.m in Sources */,
+				C4ED21B11C06CFA0009818A7 /* modelpush.m in Sources */,
 				C4EB9E121C044EAB00A1F600 /* homeViewController.m in Sources */,
+				C4ED218B1C06A0C6009818A7 /* personDetailsViewController.m in Sources */,
+				91E382CE1C0603B900896049 /* clubDetailsViewController.m in Sources */,
+				C4ED21A71C06A59C009818A7 /* nearbyViewController.m in Sources */,
+				C48331081C05999900EF0513 /* EAIntroPage.m in Sources */,
+				91E382CB1C05F9B800896049 /* citiesViewController.m in Sources */,
+				C4ED219E1C06A3A5009818A7 /* serviceViewController.m in Sources */,
+				C4ED218E1C06A15E009818A7 /* modifyingDataViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -314,7 +314,7 @@ static const UInt8 privateKeyIdentifier[] = "com.beily.sample.privatekey";
     
     NSData *targetData = [target dataUsingEncoding:NSUTF8StringEncoding];
     const void *bytes = [targetData bytes];
-    int length = (int)[targetData length];
+    //int length = (int)[targetData length];
     
     cipherBuffer = malloc(CIPHER_BUFFER_SIZE);
     memcpy(cipherBuffer, bytes, CIPHER_BUFFER_SIZE);

@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface clubViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
+- (IBAction)kindButton:(UIButton *)sender forEvent:(UIEvent *)event;
+- (IBAction)shopButton:(UIButton *)sender forEvent:(UIEvent *)event;
+@property (weak, nonatomic) IBOutlet UIButton *kindBtn;
+@property (weak, nonatomic) IBOutlet UIButton *shopBtn;
 
 @end
