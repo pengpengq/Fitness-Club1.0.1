@@ -9,7 +9,7 @@
         <!--个人中心-->
         <scene sceneID="FfL-rx-xec">
             <objects>
-                <viewController id="qFo-16-iLj" customClass="notLoggedViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="notlogged" useStoryboardIdentifierAsRestorationIdentifier="YES" id="qFo-16-iLj" customClass="notLoggedViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="rq7-FC-fnb"/>
                         <viewControllerLayoutGuide type="bottom" id="AJQ-Bk-dPv"/>
