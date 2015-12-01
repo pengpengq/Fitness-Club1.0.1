@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface feedBackViewController : UIViewController
+- (IBAction)resubmitAction:(UIButton *)sender;
 
 @end

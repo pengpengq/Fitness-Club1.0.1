@@ -10,4 +10,10 @@
 
 @interface personDetailsViewController : UIViewController
 
+- (IBAction)editorAction:(id)sender;
+
+
+
+- (IBAction)signOut:(UIButton *)sender;
+
 @end

@@ -1,24 +1,22 @@
 //
-//  serviceViewController.m
+//  notLoggedViewController.m
 //  FitnessClub
 //
-//  Created by 米老头 on 15/11/26.
+//  Created by QAQ on 15/12/1.
 //  Copyright © 2015年 milaotou. All rights reserved.
 //
 
-#import "serviceViewController.h"
+#import "notLoggedViewController.h"
 
-@interface serviceViewController ()
+@interface notLoggedViewController ()
 
 @end
 
-@implementation serviceViewController
+@implementation notLoggedViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.textView.keyboardType = UIKeyboardTypeDefault;
-    self.textView.editable =NO;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -36,4 +34,11 @@
 }
 */
 
+- (IBAction)entryAction:(UIButton *)sender {
+    UIViewController *view = [Utilities getStoryboardInstance:@"Main" byIdentity:@"entry"];
+    UINavigationController* navigation = [[UINavigationController alloc] initWithRootViewController:view];
+    navigation.navigationBarHidden = YES;
+    navigation.modalTransitionStyle = UIModalTransitionStyleCoverVertical;
+    [self presentViewController:navigation animated:YES completion:nil];
+}
 @end

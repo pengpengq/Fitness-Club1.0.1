@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		08DC0DC90B9B6CBD5D740ACA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F39564F36FD22154023AF932 /* libPods.a */; };
+		50FF6AF91C0C439600D5B556 /* MLKMenuPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FF6AF81C0C439600D5B556 /* MLKMenuPopover.m */; };
+		50FF78251C0D28B000022E60 /* notLoggedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FF78241C0D28B000022E60 /* notLoggedViewController.m */; };
 		91E382CB1C05F9B800896049 /* citiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E382CA1C05F9B800896049 /* citiesViewController.m */; };
 		91E382CE1C0603B900896049 /* clubDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E382CD1C0603B900896049 /* clubDetailsViewController.m */; };
 		C48330FA1C05504700EF0513 /* homeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C48330F91C05504700EF0513 /* homeObject.m */; };
@@ -77,6 +79,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		50FF6AF71C0C439600D5B556 /* MLKMenuPopover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLKMenuPopover.h; sourceTree = "<group>"; };
+		50FF6AF81C0C439600D5B556 /* MLKMenuPopover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLKMenuPopover.m; sourceTree = "<group>"; };
+		50FF78231C0D28B000022E60 /* notLoggedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = notLoggedViewController.h; sourceTree = "<group>"; };
+		50FF78241C0D28B000022E60 /* notLoggedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = notLoggedViewController.m; sourceTree = "<group>"; };
 		6CD53555DD79B5F9CCE380ED /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		91E382C91C05F9B800896049 /* citiesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = citiesViewController.h; sourceTree = "<group>"; };
 		91E382CA1C05F9B800896049 /* citiesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = citiesViewController.m; sourceTree = "<group>"; };
@@ -199,6 +205,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		50FF78221C0D250F00022E60 /* 个人信息 */ = {
+			isa = PBXGroup;
+			children = (
+				C4ED21891C06A0C6009818A7 /* personDetailsViewController.h */,
+				C4ED218A1C06A0C6009818A7 /* personDetailsViewController.m */,
+				C4ED218C1C06A15E009818A7 /* modifyingDataViewController.h */,
+				C4ED218D1C06A15E009818A7 /* modifyingDataViewController.m */,
+			);
+			name = "个人信息";
+			sourceTree = "<group>";
+		};
 		9189AE3B1C04C32B0029D48A /* 会所 */ = {
 			isa = PBXGroup;
 			children = (
@@ -213,6 +230,7 @@
 		9189AE3C1C04C36B0029D48A /* 个人中心 */ = {
 			isa = PBXGroup;
 			children = (
+				50FF78221C0D250F00022E60 /* 个人信息 */,
 				C4ED21A81C06ACC2009818A7 /* 优惠劵 */,
 				C4ED219B1C06A374009818A7 /* 服务条款 */,
 				C4ED21971C06A240009818A7 /* 意见反馈 */,
@@ -220,10 +238,8 @@
 				C4ED218F1C06A17C009818A7 /* 我的收藏 */,
 				C4EB9E181C044F0200A1F600 /* personViewController.h */,
 				C4EB9E191C044F0200A1F600 /* personViewController.m */,
-				C4ED21891C06A0C6009818A7 /* personDetailsViewController.h */,
-				C4ED218A1C06A0C6009818A7 /* personDetailsViewController.m */,
-				C4ED218C1C06A15E009818A7 /* modifyingDataViewController.h */,
-				C4ED218D1C06A15E009818A7 /* modifyingDataViewController.m */,
+				50FF78231C0D28B000022E60 /* notLoggedViewController.h */,
+				50FF78241C0D28B000022E60 /* notLoggedViewController.m */,
 			);
 			name = "个人中心";
 			sourceTree = "<group>";
@@ -373,6 +389,8 @@
 				C4EB9DC71C0445C700A1F600 /* SCZ-BasicEncodingRules */,
 				C4ED21AF1C06CFA0009818A7 /* modelpush.h */,
 				C4ED21B01C06CFA0009818A7 /* modelpush.m */,
+				50FF6AF71C0C439600D5B556 /* MLKMenuPopover.h */,
+				50FF6AF81C0C439600D5B556 /* MLKMenuPopover.m */,
 			);
 			name = 3rd;
 			sourceTree = "<group>";
@@ -728,6 +746,7 @@
 				C48330FA1C05504700EF0513 /* homeObject.m in Sources */,
 				C4EB9DFB1C044B8C00A1F600 /* NSString+Crypt.m in Sources */,
 				C4EB9DEE1C044AF100A1F600 /* Utilities.m in Sources */,
+				50FF78251C0D28B000022E60 /* notLoggedViewController.m in Sources */,
 				C4ED21AB1C06ACE4009818A7 /* couponViewController.m in Sources */,
 				C4EB9DF91C044B8C00A1F600 /* AppAPIClient.m in Sources */,
 				C4ED21B81C06D770009818A7 /* clubObject.m in Sources */,
@@ -746,6 +765,7 @@
 				C4EB9D8B1C043BF100A1F600 /* main.m in Sources */,
 				C4ED21921C06A1C2009818A7 /* myCollectionViewController.m in Sources */,
 				C4ED21B11C06CFA0009818A7 /* modelpush.m in Sources */,
+				50FF6AF91C0C439600D5B556 /* MLKMenuPopover.m in Sources */,
 				C4EB9E121C044EAB00A1F600 /* homeViewController.m in Sources */,
 				C4ED218B1C06A0C6009818A7 /* personDetailsViewController.m in Sources */,
 				91E382CE1C0603B900896049 /* clubDetailsViewController.m in Sources */,
